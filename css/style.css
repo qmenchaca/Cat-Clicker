@@ -1,0 +1,28 @@
+* {box-sizing:border-box;}
+body {background-color: #CCC;}
+
+.side-bar {
+    width: 15%;
+    height: 100%;
+    float: left;
+    clear: left;
+    top: 0;
+    z-index: 1;
+}
+
+.content {
+    margin-left: 15%;
+    width: 85%;
+    clear: right;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
